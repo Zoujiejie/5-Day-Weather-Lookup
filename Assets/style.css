@@ -1,0 +1,11 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(85, 85, 128);
+}
+
+h1 {
+    text-align: center;
+}
