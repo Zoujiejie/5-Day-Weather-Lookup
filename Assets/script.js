@@ -1,4 +1,4 @@
-var today = moment().format('MM-DD-YYYY');
+var today = moment().format('L');
 var apiKey = "d98ab3a08b67e404649014566902fda3";
 var searchBtnEl = document.querySelector('#searchBtn');
 console.log(searchBtnEl)
@@ -60,8 +60,9 @@ function makeFiveDayCards(days) {
         resultCard.classList.add('card', 'bg-light', 'text-dark', 'mb-3', 'p-3');
         resultCard.innerHTML = 
         `<ol class="five-day-list">
+        <p>Date: ${day.dt_txt}</p>
         <p>Temp: ${day.main.temp}</p>
-        <p>Wind speed: ${day.wind}</p>
+        <p>Wind speed: ${day.wind.speed}</p>
         <p>Humidity: ${day.main.humidity}</p>
         </ol>
         `
