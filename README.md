@@ -16,5 +16,15 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
+## Psuedocode
+* Fetch OpenWeather API for information including temperature, humidty and wind speed of the curent date and the future 5-day forecast of a searched city
+* Using LocalStorge to store the search input data and to persist data when the page is refreshed
+* An icon representation of weather conditions
+* Make search history responsive
+
+## Websites
+* [GitHub repo](https://github.com/Zoujiejie/5-Day-Weather-Lookup)
+* [GitHub Deployed Page](https://zoujiejie.github.io/5-Day-Weather-Lookup/)
+
 ## Credits
 [OpenWeather API](https://openweathermap.org/api) is an API used to retrieve current weather data and weather forecast for different locations 
